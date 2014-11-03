@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" 'ead.dtd'>
+<?xml-stylesheet type='text/xsl' href='styles/box.xsl'?>
+<ead>
+	<eadheader>
+		<eadid countrycode='us' url='http://library.marist.edu/archives'>1.2.3</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Lowell Thomas Papers</titleproper>
+				<author>Monish Singh</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Marist Archives and Special Collections</publisher>
+				<address>
+					<addressline>3399 North Road, Poughkeepsie, NY 12601</addressline>
+				</address>
+			</publicationstmt>
+		</filedesc>
+	</eadheader>
+	<archdesc level='subseries'>
+		<did>
+			<unitid countrycode='us'>1.2.3</unitid>
+			<unittitle>Subject Files</unittitle>
+			<unitdate type='inclusive'></unitdate>
+			<physdesc>
+				<extent></extent>
+			</physdesc>
+			<repository>
+				<corpname>Marist Archives and Special Collections</corpname>
+			</repository>
+			<langmaterial>
+				<language langcode='eng'>English</language>
+			</langmaterial>
+		</did>
+		<dsc type='combined'>
+			<c01>
+				<note>482</note>
+				<c02 level ='file'>
+					<did>
+						<unitid>3</unitid>
+						<unittitle>American Emergency Committee for Tibetan Refugees (AECTR)</unittitle>
+						<unitdate label='Date'>1959 April 28 - 1980 May</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>4</unitid>
+						<unittitle>Bibliography on Tibet</unittitle>
+						<unitdate label='Date'>1950</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>5</unitid>
+						<unittitle>Daniel Bragg: notes on the Tibetan broadcasts</unittitle>
+						<unitdate label='Date'>1949 August - October</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>6</unitid>
+						<unittitle>Bureau of His Holiness the Dalai Lama</unittitle>
+						<unitdate label='Date'>1961 August 4 - 1967 September 9</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>7</unitid>
+						<unittitle>Central Relief Committee (India)</unittitle>
+						<unitdate label='Date'>circa 1961</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>8</unitid>
+						<unittitle>Central Relief Committee (India)</unittitle>
+						<unitdate label='Date'>circa 1961</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>9</unitid>
+						<unittitle>Coins [see oversize box TOS-1 for original coins]</unittitle>
+						<unitdate label='Date'>circa 1949</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>10</unitid>
+						<unittitle>Conspiracy theories</unittitle>
+						<unitdate label='Date'>1966</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>11</unitid>
+						<unittitle>Customs</unittitle>
+						<unitdate label='Date'>1949 September 1 - November 4</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>12</unitid>
+						<unittitle>Electra Ward Nicks</unittitle>
+						<unitdate label='Date'>1981 July - August</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>13</unitid>
+						<unittitle>The Encyclopedia Americana</unittitle>
+						<unitdate label='Date'>1954 March - 1963</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid></unitid>
+						<unittitle></unittitle>
+						<unitdate label='Date'></unitdate>
+					</did>
+				</c02>
+			</c01>
+			<c01>
+				<note>483</note>
+				<c02 level ='file'>
+					<did>
+						<unitid>1</unitid>
+						<unittitle>Equipment and supplies</unittitle>
+						<unitdate label='Date'>1949 - 1950</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>2</unitid>
+						<unittitle>Flight from Tibet</unittitle>
+						<unitdate label='Date'>1959 June 3</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>3</unitid>
+						<unittitle>Game of Sho</unittitle>
+						<unitdate label='Date'>1957 May 13</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>4</unitid>
+						<unittitle>High Adventure with Lowell Thomas in Tibet</unittitle>
+						<unitdate label='Date'>circa 1957 - 1959</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>5</unitid>
+						<unittitle>High Adventure with Lowell Thomas in Tibet</unittitle>
+						<unitdate label='Date'>circa 1957 - 1959</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>6</unitid>
+						<unittitle>High Adventure with Lowell Thomas in Tibet</unittitle>
+						<unitdate label='Date'>circa 1957 - 1959</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>7</unitid>
+						<unittitle>Mission Rescue: Adventuring for Christ from Tibet to Burma told by LaVerne Morse to Dorothy Fay Foster (picture story)</unittitle>
+						<unitdate label='Date'>1946</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>8</unitid>
+						<unittitle>Notes</unittitle>
+						<unitdate label='Date'>undated</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>9</unitid>
+						<unittitle>Office of Tibet</unittitle>
+						<unitdate label='Date'>1961 May 26 - 1981 December 30</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>10</unitid>
+						<unittitle>Receipts</unittitle>
+						<unitdate label='Date'>1949</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>11</unitid>
+						<unittitle>Sketches</unittitle>
+						<unitdate label='Date'>undated</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>12</unitid>
+						<unittitle>Tenki Tenduf-La</unittitle>
+						<unitdate label='Date'>1951</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>13</unitid>
+						<unittitle>Gyalo Thondup</unittitle>
+						<unitdate label='Date'>undated</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>14</unitid>
+						<unittitle>The Tibet Society</unittitle>
+						<unitdate label='Date'>1967 January - February 7</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>15</unitid>
+						<unittitle>Tibet Trade Mission (business cards)</unittitle>
+						<unitdate label='Date'>circa 1949</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>16</unitid>
+						<unittitle>Tibetan Bulletin</unittitle>
+						<unitdate label='Date'>1978 March - April</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>17</unitid>
+						<unittitle>Tibetan frontier pass for Lowell Thomas and Lowell Thomas, Jr.</unittitle>
+						<unitdate label='Date'>1949 August 5 - 27 October</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid></unitid>
+						<unittitle></unittitle>
+						<unitdate label='Date'></unitdate>
+					</did>
+				</c02>
+			</c01>
+			<c01>
+				<note>484</note>
+				<c02 level ='file'>
+					<did>
+						<unitid>1</unitid>
+						<unittitle>Tibetan Homes Foundation</unittitle>
+						<unitdate label='Date'>1963 July 4 - 1975 May 28</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>2</unitid>
+						<unittitle>Tibetan Industrial Rehabilitation Society (TIRS)</unittitle>
+						<unitdate label='Date'>1970 April 6 - May 19</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>3</unitid>
+						<unittitle>Tibetan postage stamps</unittitle>
+						<unitdate label='Date'>circa 1949</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>4</unitid>
+						<unittitle>Tibetan recordings</unittitle>
+						<unitdate label='Date'>1949 - 1954 January 28</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>5</unitid>
+						<unittitle>Tibetan review</unittitle>
+						<unitdate label='Date'>1978 April, May, December</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>6</unitid>
+						<unittitle>Tibetan scroll presented to President Harry Truman</unittitle>
+						<unitdate label='Date'>1949 November 9</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>7</unitid>
+						<unittitle>Tibetan skit</unittitle>
+						<unitdate label='Date'>circa late 1950s</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>8</unitid>
+						<unittitle>Tibetan students</unittitle>
+						<unitdate label='Date'>1951 - 1970</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>9</unitid>
+						<unittitle>Travel arrangements</unittitle>
+						<unitdate label='Date'>1949</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>10</unitid>
+						<unittitle>The University Museum (University of Pennsylvania)</unittitle>
+						<unitdate label='Date'>1949 August - November</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid></unitid>
+						<unittitle></unittitle>
+						<unitdate label='Date'></unitdate>
+					</did>
+				</c02>
+			</c01>
+			<c01>
+				<note>485</note>
+				<c02 level ='file'>
+					<did>
+						<unitid>1</unitid>
+						<unittitle>Tibetan Homes Foundation</unittitle>
+						<unitdate label='Date'>1963 July 4 - 1975 May 28</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>2</unitid>
+						<unittitle>Tibetan Industrial Rehabilitation Society (TIRS)</unittitle>
+						<unitdate label='Date'>1970 April 6 - May 19</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>3</unitid>
+						<unittitle>Tibetan postage stamps</unittitle>
+						<unitdate label='Date'>circa 1949</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>4</unitid>
+						<unittitle>Tibetan recordings</unittitle>
+						<unitdate label='Date'>1949 - 1954 January 28</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>5</unitid>
+						<unittitle>Tibetan review</unittitle>
+						<unitdate label='Date'>1978 April, May, December</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>6</unitid>
+						<unittitle>Tibetan scroll presented to President Harry Truman</unittitle>
+						<unitdate label='Date'>1949 November 9</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>7</unitid>
+						<unittitle>Tibetan skit</unittitle>
+						<unitdate label='Date'>circa late 1950s</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>8</unitid>
+						<unittitle>Tibetan students</unittitle>
+						<unitdate label='Date'>1951 - 1970</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>9</unitid>
+						<unittitle>Travel arrangements</unittitle>
+						<unitdate label='Date'>1949</unitdate>
+					</did>
+				</c02>
+				<c02 level ='file'>
+					<did>
+						<unitid>10</unitid>
+						<unittitle>The University Museum (University of Pennsylvania)</unittitle>
+						<unitdate label='Date'>1949 August - November</unitdate>
+					</did>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

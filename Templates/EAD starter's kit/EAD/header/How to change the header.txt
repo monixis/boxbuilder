@@ -1,0 +1,12 @@
+How to change the header.
+
+1> Replace the header.gif file with your own header. The dimension for the file must be 989 pixel by 95 pixel.
+
+2> Open main.css file inside styles folder in any xml editor like notepad or notepad ++.
+
+3> Find #header and replace background-color to the color of your choice.
+
+4> Find #logo and replace background-color to the color of your choice.
+
+You can use the following website to identify the color code
+http://www.w3schools.com/tags/ref_colorpicker.asp

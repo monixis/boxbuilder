@@ -89,6 +89,9 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
  		<xsl:if test="../bioghist">
 			<label>Biographical History: </label><p><xsl:value-of select="../bioghist"/></p>
 		</xsl:if>	
+		<xsl:if test="../../control/filedesc/notestmt">
+			<div id="breadcrumb"><p><xsl:value-of select="../../control/filedesc/notestmt/controlnote"/></p></div>
+		</xsl:if>	
 	</div>
 		
 </xsl:template>
@@ -97,7 +100,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
 	
 	
 	
-	<div style="margin-top: 60px;">
+	<div style="margin-top: 25px;">
 		<xsl:for-each select="//*[@level='recordgrp']">
 		
 		 <table class="tbl" align="center" style="margin-bottom: 15px; " >

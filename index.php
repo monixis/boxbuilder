@@ -377,6 +377,11 @@
 					<p>
 						Feel free to replace the name 'EAD Starter's Kit' with your collection name. Please use firefox to view the files. Google chrome does not render local xml files. It will work once its online.
 					</p>
+					<p>
+						Github repository: <a href='https://github.com/monixis/boxbuilder' target="_blank">https://github.com/monixis/boxbuilder</a>
+					</p>
+					<p> Please use this <a href='https://goo.gl/forms/ThnN2Xmoqk4bao1B2' target="_blank">google form </a>to register as a Boxbuilder user. It will allow me to keep you updated on the upcoming features and bug fixes.</p>
+					<p>Feel free to <a href="mailto:snh.monish@gmail.com?Subject=Boxbuilder" target="_blank">contact me </a>if you have any questions or suggestions to improve Boxbuilder </p>
 				</div>
 				<div id="bottom">
 			<p style="text-align: center;">This website and the Boxbuilder tool is developed and maintained by <a href="https://www.linkedin.com/in/monishsingh" target="_blank">Monish Singh</a></p>

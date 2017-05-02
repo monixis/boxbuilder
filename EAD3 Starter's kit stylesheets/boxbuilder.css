@@ -1,0 +1,57 @@
+
+/* table design begins */ 
+table.tbl {		
+		 	border-collapse:collapse;
+			empty-cells: show; 
+			border:1px solid #ccc; 
+			border-spacing:5px; 
+			width:75%; 
+		}
+	
+.tableFont{ 
+			font-family: "Calibri", Arial, sans-serif;
+			font-size:11pt; 
+			text-align: center;}
+			
+table.tbl td, table.tbl th  { padding:3px 8px; border:1px solid #ccc; }
+
+table.tbl tr  { background:#f2f2f2;}
+
+table.tbl th { background:#ddd;}
+
+h1.heading{ font-size:20pt; font-weight:bold; margin-top:-100px; margin-bottom:10px; text-align:center; font-family: "Calibri", Arial, sans-serif; width:100%;}
+
+h2.heading{ font-size:20pt; font-weight:bold; margin-top:70px; margin-bottom:30px; text-align:center; font-family: "Calibri", Arial, sans-serif; width:100%; font-style:italic;}
+/*h2.box{ font-size:15pt; font-weight:bold; margin-bottom:1pt; margin-top:1pt; margin-left:200pt; font-family: "Calibri", Arial, sans-serif;}*/
+
+.caption{
+	background:#ccc;
+	font-size:100%;
+	border-bottom:none;
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	}
+
+tr.Box:hover{
+	cursor:pointer;
+	color:#f2f2f2;
+	}
+
+.headerColor{
+	height: 330px;
+    background-color: #B31B1B;
+    margin-top: -20px;
+}
+
+#descSummary{
+	margin-top: 75px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label{
+	font-weight: bold;
+	font-size: 15pt;
+}

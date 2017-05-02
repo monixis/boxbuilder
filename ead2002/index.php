@@ -197,6 +197,7 @@
 			<div class="divContainer">
 
 				<div id="step1">
+					<p>Access the <a href='http://library.marist.edu/boxbuilder/'>Boxbuilder 2.0 </a>version that converts to EAD 3.</p>
 					<h1>Step 1: Download the Boxbuilder CSV template or use Excel template to catalog the files.</h1>
 					<iframe src="https://app.box.com/embed_widget/s/w53n1n3u73p3vh4ffxzb?view=list&sort=name&direction=ASC&theme=gray" width="600" height="300" frameborder="0"allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
 				

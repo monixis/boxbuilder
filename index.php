@@ -152,25 +152,25 @@
 							break;
 						} else {
 							
-							repository = data[0][1];
-							publisher = data[1][1];
-							address = data[2][1];
-							url = data[3][1];
+							repository = data[1][1];
+							publisher = data[2][1];
+							address = data[3][1];
+							//url = data[3][1];
 							collection = data[4][1];
 							date = data[5][1];
 							creator = data[6][1];
-							recordid = data[7][1];
-							title = data[7][2];
+							recordid = data[14][1];
+							title = data[14][2];
 							//physdesc = data[11][1];
 							//collectiondate = data[10][1];
-							accessrestrict = data[13][1];
-							userestrict = data[14][1];
+							accessrestrict = data[9][1];
+							userestrict = data[10][1];
 							//scopecontent = data[15][1];
 							//bioghist = data[16][1];
 							
-							context = collection + " - " + data[17][2];
+							context = collection + " - " + data[18][2];
 							
-							for(var y = 17; y < 25 ; y++){
+							for(var y = 18; y < 25 ; y++){
 								if(data[y][0].trim() == 'Sub Series'){
 									if (data[y][2].trim()){
 										context = context + " - " + data[y][2];
@@ -180,55 +180,55 @@
 							
 							if (language = " "){
 								for (var z=1; z<9 ; z++){
-									if(data[12][z])
+									if(data[17][z])
 										{
-										language = language + "<language>" + data[12][z] + "</language>";		
+										language = language + "<language>" + data[17][z] + "</language>";		
 										}
 									}
 							}
 								
-							if(data[10][1].trim()){
-								collectiondate = "<unitdatestructured unitdatetype='" + data[10][3].trim() + "'><daterange><fromdate>" + data[10][1].trim() + "</fromdate><todate>" + data[10][2].trim() + "</todate></daterange></unitdatestructured>";
+							if(data[7][1].trim()){
+								collectiondate = "<unitdatestructured unitdatetype='" + data[7][3].trim() + "'><daterange><fromdate>" + data[7][1].trim() + "</fromdate><todate>" + data[7][2].trim() + "</todate></daterange></unitdatestructured>";
 							}else{
 								collectiondate = " ";
 							}
 							
-							if(data[11][1].trim()){
-								physdesc = "<physdescstructured physdescstructuredtype='" + data[11][3].trim() + "' coverage='" + data[11][4].trim() + "'><quantity>" + data[11][1].trim() + "</quantity><unittype>" + data[11][2].trim() + "</unittype></physdescstructured>";
+							if(data[8][1].trim()){
+								physdesc = "<physdescstructured physdescstructuredtype='" + data[8][3].trim() + "' coverage='" + data[8][4].trim() + "'><quantity>" + data[8][1].trim() + "</quantity><unittype>" + data[8][2].trim() + "</unittype></physdescstructured>";
 							}else{
 								physdesc = " ";
 							}
 							
-							if(data[15][1].trim()){
-								scopecontent = "<scopecontent><p>" + data[15][1].trim() + "</p></scopecontent>";
+							if(data[11][1].trim()){
+								scopecontent = "<scopecontent><p>" + data[11][1].trim() + "</p></scopecontent>";
 							}else{
 								scopecontent = " ";
 							}
 							
-							if(data[16][1].trim()){
-								bioghist = "<bioghist><p>" + data[16][1].trim() + "</p></bioghist>";
+							if(data[12][1].trim()){
+								bioghist = "<bioghist><p>" + data[12][1].trim() + "</p></bioghist>";
 							}else{
 								bioghist = " ";
 							}
 							
-							if (data[8][1].trim()){
-								controlaccess = "<controlaccess><genreform><part>" + data[8][1].trim() + "</part></genreform>";
-								if(data[9][1].trim()){
-									controlaccess = controlaccess + "<geogname source='" + data[9][3].trim() + "' identifier='" + data[9][2].trim() + "'><part>" + data[9][1].trim() + "</part></geogname></controlaccess>"; 
+							if (data[15][1].trim()){
+								controlaccess = "<controlaccess><genreform><part>" + data[15][1].trim() + "</part></genreform>";
+								if(data[16][1].trim()){
+									controlaccess = controlaccess + "<geogname source='" + data[16][3].trim() + "' identifier='" + data[16][2].trim() + "'><part>" + data[16][1].trim() + "</part></geogname></controlaccess>"; 
 								}else{
 									controlaccess = controlaccess + "</controlaccess>";
 								}
-							}else if (data[9][1].trim()){
-								controlaccess = "<controlaccess><geogname source='" + data[9][3].trim() + "' identifier='" + data[9][2].trim() + "'><part>" + data[9][1].trim() + "</part></geogname></controlaccess>"; 
+							}else if (data[16][1].trim()){
+								controlaccess = "<controlaccess><geogname source='" + data[16][3].trim() + "' identifier='" + data[16][2].trim() + "'><part>" + data[16][1].trim() + "</part></geogname></controlaccess>"; 
 							}
 							/*seriesid = data[8][1];
 							series = data[8][2];*/
-							serieslevel = "<c01 level='collection'><did><unittitle>" + data[4][1].trim() + "<ptr href='" + data[4][2].trim() + "'></ptr></unittitle></did><c02 level='series'><did><unitid>" + data[17][1].trim() + "</unitid><unittitle>" + data[17][2].trim() + "</unittitle></did>";
+							serieslevel = "<c01 level='collection'><did><unittitle>" + data[4][1].trim() + "<ptr href='" + data[4][2].trim() + "'></ptr></unittitle></did><c02 level='series'><did><unitid>" + data[18][1].trim() + "</unitid><unittitle>" + data[18][2].trim() + "</unittitle></did>";
 							seriesend = "</c02></c01></dsc></archdesc></ead>";						
-							for(var j = 18 ; j < 25; j++){
+							for(var j = 19 ; j < 24; j++){
 								if(data[j][0].trim() == 'Sub Series'){
 									if(data[j][1].trim()){
-										cno = j - 15;
+										cno = j - 16;
 										serieslevel = serieslevel + "<c0" + cno + " level='subseries'><did><unitid>" + data[j][1].trim() + "</unitid><unittitle>" + data[j][2].trim() + "</unittitle></did>";
 										seriesend = "</c0" + cno + ">" + seriesend ;
 										cno = cno + 1;
@@ -257,7 +257,7 @@
 						
 					}
 					
-					var boxcontents = "<\?xml version='1.0' encoding='UTF-8'?><\?xml-model href='https://www.loc.gov/ead/ead3.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><\?xml-stylesheet type='text/xsl' href='./styles/boxbuilder.xsl'?><ead><!-- EAD3 required element --><control countryencoding='iso3166-1' dateencoding='iso8601' langencoding='iso639-2b' repositoryencoding='iso15511' scriptencoding='iso15924'> <!-- EAD3 required element --><recordid instanceurl='" + url + "'>" + recordid + "</recordid> <!-- EAD3 required element --><filedesc> <!-- EAD3 required element --><titlestmt> <!-- EAD3 required element --><titleproper>" + title + "</titleproper><!-- Required element within titlestmt --></titlestmt><publicationstmt><publisher>" + publisher + "</publisher><date>" + date + "</date><address><addressline>"+ address +"</addressline></address><p><ref href='https://creativecommons.org/publicdomain/zero/1.0/'>CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref></p></publicationstmt><notestmt><controlnote><p>"+ context +"</p></controlnote></notestmt></filedesc></control><archdesc level='collection'><!-- EAD3 required element --><did><!-- EAD3 required element --><repository><corpname source='" + data[0][3] + "' identifier='" + data[0][2] + "'><part>"+ repository +"</part></corpname><address><addressline>" + address + "</addressline></address></repository><origination source='" + data[6][3] + "' identifier='" + data[6][2] + "'><!-- Optional EAD3 element, added to comply with DACS requirement for 'Name of Creator(s) Element'. The new <relations> element can satisfy this and expand on it, but as <relations> is experimental, use of <origination> is recommended for now --><persname><part>" + creator + "</part></persname></origination><unittitle>"+ title +"</unittitle><!-- Optional EAD3 element, added to comply with DACS requirement for 'Title Element' --><unitid>"+ recordid +"</unitid> <!-- Optional EAD3 element, added to comply with 'Reference Code Element' of DACS requirement -->" + collectiondate + physdesc + "<langmaterial>" + language + "</langmaterial></did><accessrestrict> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' --><p>"+ accessrestrict +"</p></accessrestrict><userestrict> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' --><p>"+ userestrict +"</p></userestrict>" + scopecontent + bioghist + controlaccess + "<dsc>";
+					var boxcontents = "<\?xml version='1.0' encoding='UTF-8'?><\?xml-model href='https://www.loc.gov/ead/ead3.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><\?xml-stylesheet type='text/xsl' href='./styles/boxbuilder.xsl'?><ead><!-- EAD3 required element --><control countryencoding='iso3166-1' dateencoding='iso8601' langencoding='iso639-2b' repositoryencoding='iso15511' scriptencoding='iso15924'> <!-- EAD3 required element --><recordid instanceurl='" + url + "'>" + recordid + "</recordid> <!-- EAD3 required element --><filedesc> <!-- EAD3 required element --><titlestmt> <!-- EAD3 required element --><titleproper>" + title + "</titleproper><!-- Required element within titlestmt --></titlestmt><publicationstmt><publisher>" + publisher + "</publisher><date>" + date + "</date><address><addressline>"+ address +"</addressline></address><p><ref href='https://creativecommons.org/publicdomain/zero/1.0/'>CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref></p></publicationstmt><notestmt><controlnote><p>"+ context +"</p></controlnote></notestmt></filedesc></control><archdesc level='collection'><!-- EAD3 required element --><did><!-- EAD3 required element --><repository><corpname source='" + data[1][3] + "' identifier='" + data[1][2] + "'><part>"+ repository +"</part></corpname><address><addressline>" + address + "</addressline></address></repository><origination source='" + data[6][3] + "' identifier='" + data[6][2] + "'><!-- Optional EAD3 element, added to comply with DACS requirement for 'Name of Creator(s) Element'. The new <relations> element can satisfy this and expand on it, but as <relations> is experimental, use of <origination> is recommended for now --><persname><part>" + creator + "</part></persname></origination><unittitle>"+ title +"</unittitle><!-- Optional EAD3 element, added to comply with DACS requirement for 'Title Element' --><unitid>"+ recordid +"</unitid> <!-- Optional EAD3 element, added to comply with 'Reference Code Element' of DACS requirement -->" + collectiondate + physdesc + "<langmaterial>" + language + "</langmaterial></did><accessrestrict> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' --><p>"+ accessrestrict +"</p></accessrestrict><userestrict> <!-- Optional EAD3 element, added to comply with DACS requirement for 'Conditions Governing Access Element' --><p>"+ userestrict +"</p></userestrict>" + scopecontent + bioghist + controlaccess + "<dsc>";
 					//var boxcontents = "<\?xml version='1.0' encoding='UTF-8'?><!DOCTYPE ead PUBLIC \"+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN\" 'ead.dtd'><\?xml-stylesheet type='text/xsl' href='styles/box.xsl'?><ead><eadheader><eadid countrycode='us' url='" + url + "'>" + seriesid + "</eadid><filedesc><titlestmt><titleproper>" + collection + "</titleproper><author>" + author + "</author></titlestmt><publicationstmt><publisher>" + repository + "</publisher><address><addressline>" + address + "</addressline></address></publicationstmt></filedesc></eadheader><archdesc level='subseries'><did><unitid countrycode='us'>" + seriesid + "</unitid><unittitle>" + title + "</unittitle><unitdate type='inclusive'></unitdate><physdesc><extent></extent></physdesc><repository><corpname>" + repository + "</corpname></repository><langmaterial><language langcode='eng'>English</language></langmaterial></did><dsc type='combined'>";
 
 					boxcontents = boxcontents + serieslevel;
@@ -309,9 +309,12 @@
 									}
 
 									/* Archivematica csv */
-									filename = "objects/" + currbox + "." + data[i][0].trim() + ".tiff";
-									dataForarch.push ([filename, '"' + data[i][1].trim() + '"',  '"' + date + '"', '"' + publisher + '"', '"' + publisher + '"','"' + data[9][1].trim() + '"','"' + data[i][2].trim() + '"', ' ','"' + context + '"','"' + collection + '"','"' + repository + '"','"' + userestrict + '"','"' + url + '"','"' + data[i][7].trim() + '"']);								
-											
+									
+									if(data[i][4].trim()){
+										filename = "objects/" + currbox + "." + data[i][0].trim() + ".tiff";
+										dataForarch.push ([filename, '"' + data[i][1].trim() + '"',  '"' + date + '"', '"' + publisher + '"', '"' + publisher + '"','"' + data[16][1].trim() + '"','"' + data[i][2].trim() + '"', ' ','"' + context + '"','"' + collection + '"','"' + repository + '"','"' + userestrict + '"','"' + data[4][2].trim() + '"','"' + data[i][7].trim() + '"']);								
+									}
+									
 
 									boxcontents = boxcontents + itemlevelend;
 								}
